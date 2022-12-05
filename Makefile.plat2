@@ -1,0 +1,5 @@
+result: ssd.o commands.o
+	gcc ssd.o commands.o -o ssd
+
+ssd.o: ssd.c commands.h
+	gcc -c ssd.c

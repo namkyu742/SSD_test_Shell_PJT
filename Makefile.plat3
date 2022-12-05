@@ -1,0 +1,5 @@
+result: test_scripts.o commands.o
+	gcc test_scripts.o commands.o -o test_scripts
+
+test_scripts.o: test_scripts.c commands.h
+	gcc -c test_scripts.c

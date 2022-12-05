@@ -1,0 +1,14 @@
+result: main.o run.o commands.o 
+	gcc main.o run.o commands.o -o run
+
+main.o: main.c run.h
+	gcc -c main.c
+
+run.o: run.c run.h commands.h
+	gcc -c run.c 
+
+commands.o : commands.c commands.h
+	gcc -c commands.c
+
+clean:
+	rm *.o run ssd test_scripts
