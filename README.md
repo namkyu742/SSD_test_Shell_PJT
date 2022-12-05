@@ -1,10 +1,10 @@
-###### **SSAFY EMBEDDED TRACK PRACTICE**
+## **SSAFY EMBEDDED TRACK PRACTICE**
 
 https://user-images.githubusercontent.com/81559614/205648070-5474e214-bb2d-4083-867d-e91beb84ab1f.mp4
 
 ---
 
-구현해야 할 프로그램
+### **구현해야 할 프로그램**
  1) 가상 SSD
   LBA size : 4Byte ( 값은 항상 10글자로 표현 ex) 0x00000000 ~ 0xFFFFFFFF )
   총 100개의 LBA ( 0 ~ 99 )
@@ -51,19 +51,19 @@ https://user-images.githubusercontent.com/81559614/205648070-5474e214-bb2d-4083-
 
 ---
 
-실행방법
+### 실행방법
 make -f Makefile.plat1
 make -f Makefile.plat2
 make -f Makefile.plat3
 
-[SSD 프로그램 단독 실행 예제]
-    ./ssd R 1
-    ./ssd W 1 0x11111111
+**[SSD 프로그램 단독 실행 예제]**
+    - ./ssd R 1
+    - ./ssd W 1 0x11111111
 
-[쉘 프로그램 실행]
-    ./run
+**[쉘 프로그램 실행]**
+    - ./run
 
-[테스트 스크립트 프로그램 단독 실행]
-    ./test_scripts testapp1
-    ./test_scripts testapp2
+**[테스트 스크립트 프로그램 단독 실행]**
+    - ./test_scripts testapp1
+    - ./test_scripts testapp2
 
