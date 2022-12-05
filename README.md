@@ -38,11 +38,11 @@ https://user-images.githubusercontent.com/81559614/205648070-5474e214-bb2d-4083-
           -2 0`~`5 LBA에 0x12345678 1회 OverWrite  
           -3 0`~`5 LBA read : 0x12345678 나옴   
 
-유의사항  
+### **유의사항**  
  1) 매개변수 유효성 검사 수행 : format, LBA 0`~`99, 0`~`F 숫자 범위만 허용  
  2) 없는 명령어일 경우, "INVALID COMMAND" 출력, segment fault 나오면 안됨  
 
-참고  
+### **참고**  
  1) main argument  
     리눅스에서 실행 프로그램 명령어 "ssd"  
  2) 리눅스쉘프로그래밍 4일차 빌드시스템 p.98 ~ 99  
