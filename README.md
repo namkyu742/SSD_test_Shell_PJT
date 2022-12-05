@@ -1,8 +1,8 @@
-#### **SSAFY EMBEDDED TRACK PRACTICE**
+###### **SSAFY EMBEDDED TRACK PRACTICE**
 
 https://user-images.githubusercontent.com/81559614/205648070-5474e214-bb2d-4083-867d-e91beb84ab1f.mp4
 
-----
+---
 
 구현해야 할 프로그램
  1) 가상 SSD
@@ -49,7 +49,7 @@ https://user-images.githubusercontent.com/81559614/205648070-5474e214-bb2d-4083-
 
 
 
-----
+---
 
 실행방법
 make -f Makefile.plat1
