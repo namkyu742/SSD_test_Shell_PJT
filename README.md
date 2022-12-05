@@ -5,13 +5,12 @@ https://user-images.githubusercontent.com/81559614/205648070-5474e214-bb2d-4083-
 ---
 
 ### **구현해야 할 프로그램**
- 1) 가상 SSD  
+ **1) 가상 SSD**  
   LBA size : 4Byte ( 값은 항상 10글자로 표현 ex) 0x00000000 ~ 0xFFFFFFFF )  
   총 100개의 LBA ( 0 ~ 99 )  
  -> 사용할 명령어 : Write / Read  
   가상 ssd 프로그램 이름 : ssd  
- 
-   [사용 가능한 명령어]  
+   [사용가능 명령어]  
    - Write : >> ssd W 주소 값  
    모니터에 출력안됨 -> nand.txt 에 저장됩니다.  
    
@@ -19,7 +18,7 @@ https://user-images.githubusercontent.com/81559614/205648070-5474e214-bb2d-4083-
    모니터에 출력 안됨 -> result.txt 에 read한 결과 저장 ( 1줄만 표시, over write )  
    기존에 저장된 값이 없으면 0x00000000  
 
- 2) Test Shell Application  
+ **2) Test Shell Application**  
   테스트 프로그램  
   [사용가능 명령어]  
    write     : write 3 0xAAAABBBB -> ssd에 명령어를 전달한다  
@@ -29,7 +28,7 @@ https://user-images.githubusercontent.com/81559614/205648070-5474e214-bb2d-4083-
    fullwrite : fullwrite 0xABCDASDA -> LBA 0`~`99 전체에 값 저장  
    fullread : fullread -> LBA 0`~`99 전체의 값 화면에 출력  
 
- 3) Test Script  
+ **3) Test Script**  
    [사용가능 명령어]  
   TestApp1 : Test Shell 에서 "testapp1" 명령어 입력 시 동작  
           -1 fullwrite  
